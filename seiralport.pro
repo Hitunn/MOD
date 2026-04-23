@@ -26,10 +26,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    modbusworker.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    modbusworker.h
 
 FORMS += \
         mainwindow.ui
